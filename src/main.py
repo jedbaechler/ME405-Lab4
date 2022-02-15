@@ -22,10 +22,13 @@ def ISR_ADC(IRQ_src):
     
 
 tim1.callback(ISR_ADC)
-pinPC1.low()
-utime.sleep_us(500)
-pinPC1.high()
+# pinPC1.low()
+# utime.sleep_us(500)
+# pinPC1.high()
 while True:
+    pinPC1.low()
+#     utime.sleep_us(100)
+    pinPC1.high()
     print(q0.get())
     
 
