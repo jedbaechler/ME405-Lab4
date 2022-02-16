@@ -33,7 +33,8 @@ while True:
     
 
 
-# while True:
+# while True: 
+        # Test runs on first order response
 #     pinPC1.low()
 #     utime.sleep_ms(2000)
 #     pinPC1.high()
